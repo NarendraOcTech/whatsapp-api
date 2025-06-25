@@ -8,7 +8,6 @@
 // $app->run();
 
 
-
 require 'vendor/autoload.php';
 
 use Slim\Factory\AppFactory;
