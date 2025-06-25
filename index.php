@@ -45,6 +45,7 @@ $app->post('/send-whatsapp', function (Request $request, Response $response) {
         'to' => $message->to,
         'body' => $msg
     ]));
+    
     return $response->withHeader('Content-Type', 'application/json');
 });
 
